@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 24px;
-    margin: 0px 120px;
+    margin: 0px 150px;
 }
 .info-bar ul{
     display: flex;
@@ -78,10 +78,16 @@ body {
 .content-one{
     display: flex;
     justify-content: space-between;
-    height: 100vh;
     background-color: #E5E7EB;
+    padding-bottom: 30px;
 }
 
+.content-priem{
+    margin-top: 3%;
+    width: 100%;
+    height: 500px;
+
+}
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -92,7 +98,7 @@ body {
 .nav-bar ul {
     display: flex;
     justify-content: space-between;
-    margin: 12px 120px;
+    margin: 12px 150px;
 }
 
 .nav-bar ul a {
@@ -117,7 +123,7 @@ body {
     height: 44px;
     color: white;
     background-color: #8B5CF6;
-    margin-right: 120px;
+    margin-right: 150px;
     margin-bottom: 24px;
     border-radius: 4px;
     border: none;
@@ -131,7 +137,7 @@ body {
 .container {
     display: block;
     justify-content: space-between;
-    margin: 0 120px;
+    margin: 0 150px;
 }
 #article{
     display: flex;
@@ -169,6 +175,7 @@ body {
 }
 
 .inpt{
+    border-radius: 4px;
     border: solid 2px #111827;
     width: 48%;
     margin: 5px;
@@ -176,6 +183,7 @@ body {
 }
 
 #calc-name{
+    border-radius: 4px;
     border: solid 2px #111827;
     width: 98%;
     margin: 5px;
@@ -208,6 +216,47 @@ body {
     width: 100%;
 }
 
+#header-content-priem{
+    font-family: "Formular-black";
+    font-size: 30px;
+    text-align: center;
+}
+
+.content-priem{
+    font-family: "Formular";
+    
+}
+
+.advant{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 0 25px;
+}
+.advants-line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.advants-item{
+    display: flex;
+    margin-top: 50px;
+}
+
+.advants-text{
+    padding: 20px;
+    font-size: 14px;
+    position: relative;
+}
+
+.advants-text h2{
+
+    font-family: 'Formular-black';
+    font-size: 24px;
+}
+
 #calc-h {
     font-family: 'Formular';
     margin: 28px auto;
@@ -218,3 +267,102 @@ body {
 #calc-h h2 {
     margin-bottom: 15px;
 }
+
+
+.footer{
+    font-family: 'Formular';
+    width: 100%;
+    height: 234px;
+    background-color: #111827;
+}
+
+.footer-navbar{
+    display: flex;
+    
+    justify-content: space-between;
+    color: white;
+}
+.footer-content{
+    margin: 20px 150px;
+    padding-top: 45px;
+}
+
+.footer-nav-item{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.footer-nav{
+    margin-top: 30px;
+}
+.footer-number{
+    margin-top: 18px;
+}
+.footer-nav ul{
+    
+    font-family: 'Formular-black';
+    font-size: 16px;
+    display: flex;
+    
+}
+.footer-nav a{
+    text-decoration: none;
+}
+.footer-logo{
+    font-size: 12px;
+    display: block;
+}
+
+@media (max-width: 1536px) {
+    .header{
+        font-size: 12px;
+    }
+    .info-bar{
+        width: 78.5%;
+    }
+    .nav-bar{
+        width: 100%;
+    }
+    #nav-button{
+        margin-right: 120px;
+    }
+    .info-bar-number{
+        font-size: 20px;
+    }
+    .number-phone{
+        font-size: 30px;
+    }
+    .container{
+        width: 78.5%;
+        justify-content: space-between;
+    }
+    .content-one{
+        display: block;
+    }
+    #article{
+        width: 100%;
+        height: 232px;
+        gap: 18px;
+        display: flex;
+        flex-direction:row;
+    }
+    #calc{
+        width: 100%;
+    }
+    #article-text{
+        display: flex;
+        flex-direction: column;
+    }
+    #article-text p{
+        margin-top: 10px;
+    }
+    #article img{
+        height: 232px;
+    }
+
+    #calc{
+        padding-top: 10px;
+        margin-top: 30px;
+    }
+}   
